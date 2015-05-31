@@ -55,7 +55,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "The UPS Bot",
+        botName: "The UPS Bot 1.0.0",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
