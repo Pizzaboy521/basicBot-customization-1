@@ -97,7 +97,7 @@
         etaRestriction: true,
         welcome: true,
         opLink: null,
-        rulesLink: null,
+        rulesLink: https://docs.google.com/document/d/11Ma1u1kKWdIUzP5yStLkwP2sXcSax39BIIAz-vdRBwo/edit,
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
@@ -113,6 +113,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Pizzaboy521/basicBot/master/basicBot.js", extend);
 
 }).call(this);
