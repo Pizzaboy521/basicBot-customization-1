@@ -55,7 +55,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "The UPS Bot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -68,34 +68,33 @@
         bouncerPlus: true,
         blacklistEnabled: true,
         lockdownEnabled: false,
-        lockGuard: false,
-        maximumLocktime: 10,
+        lockGuard: true,
+        maximumLocktime: 120,
         cycleGuard: true,
-        maximumCycletime: 10,
+        maximumCycletime: 120,
         voteSkip: false,
         voteSkipLimit: 10,
         timeGuard: true,
         maximumSongLength: 10,
         autodisable: true,
-        commandCooldown: 30,
+        commandCooldown: 10,
         usercommandsEnabled: true,
-        lockskipPosition: 3,
+        lockskipPosition: 1,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
             ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
         ],
         afkpositionCheck: 15,
-        afkRankCheck: "ambassador",
-        motdEnabled: false,
+        afkRankCheck: "cohost",
+        motdEnabled: enabled,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "We got a bot and a plug cubed backround! <3",
         filterChat: true,
-        etaRestriction: false,
+        etaRestriction: true,
         welcome: true,
         opLink: null,
         rulesLink: null,
@@ -108,8 +107,8 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/Pizzaboy521/basicBot-customization-1/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/Pizzaboy521/basicBot-customization-1/master/blacklists/ExampleOPlist.json"
         }
     }));
 
