@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Pizzaboy521";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -55,11 +55,11 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "The UPS Bot 1.0.0",
+        botName: "Pizzabot 1.0.0",
         language: "english",
-        startupCap: 1, // 1-200
+        startupCap: 100, // 1-200
         startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupEmoji: true, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
@@ -92,12 +92,12 @@
         afkRankCheck: "cohost",
         motdEnabled: enabled,
         motdInterval: 5,
-        motd: "We got a bot and a plug cubed backround! <3",
+        motd: "Funs",
         filterChat: true,
         etaRestriction: true,
         welcome: true,
         opLink: null,
-        rulesLink: https://docs.google.com/document/d/11Ma1u1kKWdIUzP5yStLkwP2sXcSax39BIIAz-vdRBwo/edit,
+        rulesLink: https://docs.google.com/document/d/1Liq317_gaVYD5QHkaSTPI1ALeGgDSY2YqwqCN5-FQUo,
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
